@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2; /* Light gray background */
+  color: #333; /* Dark gray text color */
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center; /* Center-align the text */
+  font-size: 32px;
+  color: #050505; /* Gold color */
+  margin: 20px 0;
+}
+
+.movie-header-table {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 2fr 2fr 2fr 1fr;
+  border: 1px solid #333; /* Dark gray border */
+  background-color: #ffd700; /* Gold background for headers */
+  text-align: center;
+  font-weight: bold;
+}
+
+.movie-header {
+  padding: 10px;
+  border: 1px solid #333; /* Dark gray border */
+}
+
+.movie-table {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 2fr 2fr 2fr 1fr;
+  border: 1px solid #333; /* Dark gray border */
+  background-color: #fff; /* White background */
+}
+
+.movie {
+  border: 1px solid #333; /* Dark gray border */
+  margin: 10px;
+  padding: 10px;
+  background-color: #f2f2f2; /* Light gray background */
+}
+
+.movie-data {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #333; /* Dark gray border */
+}
+
+.movie-data ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #333; /* Dark gray color for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#genre-filter {
+  padding: 5px;
+  width: 200px;
+  font-size: 16px;
+}
